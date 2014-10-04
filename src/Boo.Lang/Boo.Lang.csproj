@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -70,8 +70,8 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include='System'/>
-    <Reference Include='System.Core'/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractGenerator.cs" />
@@ -104,6 +104,7 @@
     <Compile Include="List.cs" />
     <Compile Include="MetaAttribute.cs" />
     <Compile Include="ModuleAttribute.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.0.AssemblyAttribute.cs" />
     <Compile Include="Procedure.cs" />
     <Compile Include="QuackFuMember.cs" />
     <Compile Include="ResourceManager.cs" />

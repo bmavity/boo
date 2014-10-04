@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -382,6 +382,7 @@
     <Compile Include="LexicalInfoPreservingMacro.cs" />
     <Compile Include="MetaProgramming\Compilation.cs" />
     <Compile Include="MetaProgramming\CompilationErrorsException.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.0.AssemblyAttribute.cs" />
     <Compile Include="Pipelines\CheckForErrors.cs" />
     <Compile Include="Pipelines\Compile.cs" />
     <Compile Include="Pipelines\CompileToBoo.cs" />

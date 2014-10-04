@@ -12,3 +12,7 @@ _ReSharper*
 .gradle
 .DS_Store
 gradle.properties
+
+boo-alpha
+nant
+NUnit-2.6.3
